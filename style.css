@@ -127,7 +127,7 @@ h3 {
 }
 /* Footer */
 footer {
-  background-color: #035eaa;
+  background-color: rgba(99, 186, 144, 0.93);
   color: #202020;
   font-size: 20px;
   text-align: center;
@@ -138,8 +138,7 @@ footer {
   bottom: 0;
 }
 .footer-container{
-    background: url("images/hero-bg2.jpg");
-    display: flex;
+    background: url("images/backs3.jpg");
 }
 .footer1 {
   width: 50%;
