@@ -43,13 +43,13 @@ header {
 .header-content h1 {
   font-size: 70px;
   margin: 0;
-  color: #004d40;
+  color: rgba(33, 112, 72, 0.95);
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
 }
 h2 {
     text-align: center;
     font-size: 35px;
-    color: #002244;
+    color: #000000;
     margin-top: 20px;
     margin-bottom: 10px;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
@@ -74,7 +74,7 @@ h3 {
     font-size:35px;
     margin-bottom: 20px;
     text-align: center;
-    color: #002244;
+    color: #000000;
 }
 /*logo in header*/
 .logo {
@@ -189,7 +189,7 @@ h1 {
   margin: 40px auto;
 }
 .images img {
-  width: 300px;
+  width: 350px;
   height: auto;
   border-radius: 8px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
@@ -226,7 +226,7 @@ footer {
   bottom: 0;
 }
 .footer-container{
-    background: url("images/backs3.jpg");
+    background: url("images/backs6.jpg");
 }
 .footer1 {
   width: 50%;

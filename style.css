@@ -43,7 +43,7 @@ header {
 .header-content h1 {
   font-size: 70px;
   margin: 0;
-  color: #004d40;
+  color: rgba(33, 112, 72, 0.95);
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
 }
 /*logo in header*/
@@ -54,6 +54,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+/* logo image */
 .logo-img {
   max-width: 100%;
   height: auto;
@@ -84,9 +85,10 @@ header {
 /* Main heading and paragraphs */
 h1 {
   text-align: center;
-  color: #002244;
+  color: #000000;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
 }
+/* content */
 .main-paragraph {
   text-align: center;
   font-size: 20px;
@@ -98,31 +100,38 @@ h1 {
   line-height: 1.8;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+/* heading 2 font, size, position and box*/
 h2 {
   text-align: center;
   font-size: 30px;
-  color: #002244;
+  color: #000000;
   margin-top: 20px;
   margin-bottom: 10px;
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
 }
+/* heading 3 font, size, position and box*/
 h3 {
   text-align: center;
   font-size: 40px;
-  color: #002244;
+  color: #000000;
   margin-top: 20px;
   margin-bottom: 30px;
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
 }
+/* h3 content */
 .h3-content {
   text-align: center;
   font-size: 20px;
   margin: 20px 20px 40px;
   color: #ffffff;
 }
+/* Source link */
 .h3-content-link {
   text-align: center;
   font-size: 15px;
+}
+strong, b {
+  font-weight: 900;
 }
 /* Footer */
 footer {
