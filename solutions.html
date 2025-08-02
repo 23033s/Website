@@ -24,27 +24,52 @@
  <!-- Main content section -->
  <main class="content">
       <h2><b>How Do We Stop Plastic Pollution?</b></h2>
- <p>
-     Statistics have shown
+<br>
+ <p class="main-paragraph">
+     Statistics have shown that millions of tonnes of plastic waste enter our oceans every year, harming marine life and polluting ecosystems.
+     While only about 0.5% of plastic waste ends up in the sea, much of the rest is mismanaged on land, leading to widespread environmental damage.
+     These alarming numbers highlight the urgent need for global action to reduce plastic production and improve waste management.
  </p>
 <!-- Clickable accordion feature -->
-  <button class="accordion">focus on minimizing plastic consumption, especially single-use plastics, by choosing reusable alternatives and advocating for sustainable practices<span class="arrow">&#9660;</span></button>
+  <button class="accordion">See a graph showing how much plastic waste (calculated) is accumulated in the oceans by different countries from 2000-2019<span class="arrow">&#9660;</span></button>
   <div class="panel">
       <!-- Statistics embed from other website -->
-      <p><iframe src="https://ourworldindata.org/grapher/annual-change-forest-area?tab=map" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe></p>
+      <p><iframe src="https://ourworldindata.org/grapher/plastic-waste-accumulated-in-oceans" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe></p>
   </div>
 
-  <button class="accordion"> focus on minimizing plastic consumption, especially single-use plastics, by choosing reusable alternatives and advocating for sustainable practices<span class="arrow">&#9660;</span></button>
+  <button class="accordion"> Explore a chart showing that only around 0.5% of plastic waste ends up in the seamost is mismanaged on land. (keep scrolling down) <span class="arrow">&#9660;</span></button>
   <div class="panel">
-      <p><iframe src="https://ourworldindata.org/grapher/annual-deforestation?stackMode=absolute%C2%AEion&tab=map" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe></p>
+      <p><iframe src="https://ourworldindata.org/how-much-plastic-waste-ends-up-in-the-ocean" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe></p>
   </div>
 
-  <button class="accordion">focus on minimizing plastic consumption, especially single-use plastics, by choosing reusable alternatives and advocating for sustainable practices<span class="arrow">&#9660;</span></button>
+  <button class="accordion">See how plastic production has surged from 1950 to 2025, with projections to 2060. (WOID interactive graph)<span class="arrow">&#9660;</span></button>
   <div class="panel">
-      <p><iframe src="https://ourworldindata.org/grapher/forest-area-as-share-of-land-area?tab=chart&time=earliest..latest&facet=none&country=USA~NZL~RUS~CHN~AUS~BRA" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe></p>
+      <p><iframe src="https://ourworldindata.org/grapher/global-plastic-production-projections" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe></p>
   </div>
-</main>
 <br>
+<p class="main-paragraph">
+  We <b>NEED</b> to take action to put an end to plastic pollution.
+   <br>
+   <br>
+  Since plastic pollution is one of the <b>biggest</b> environmental challenges today. To stop it, we <b>need</b> to take action on many levels.
+    <br>
+    <br>
+  <b>Here are some ways to stop plastic pollution:</b>
+</p>
+<div class="explanation">
+  <ul>
+    <li><strong>Reduce:</strong> Use less single-use plastic like bags, bottles, and packaging.</li>
+    <li><strong>Reuse:</strong> Choose reusable alternatives such as cloth bags, refillable bottles, and containers.</li>
+    <li><strong>Recycle:</strong> Properly sort and recycle plastics to prevent them from reaching the ocean.</li>
+    <li><strong>Support Policies:</strong> Encourage governments to ban harmful plastics and invest in sustainable alternatives.</li>
+    <li><strong>Community Action:</strong> Join or organize clean-up events and raise awareness in your community and school.</li>
+    <li><strong>Kaitiakitanga:</strong> Honour the Māori value of guardianship of the land by protecting the environment for future generations.</li>
+  </ul>
+</div>
+<p class="main-paragraph">
+  Every small step helps and any sort of help, even if it's small, can make a difference. Together, we can reduce plastic pollution and protect our oceans and wildlife.
+</p>
+</main>
  <footer>
  <p><strong>Kaitiakitanga Quote:</strong> "He taonga te whenua, he koha nā ngā tūpuna." - This whakataukī translates to The land is a treasure, a gift from the ancestors." </p>
  <br>
@@ -67,7 +92,26 @@
           </div>
      </div>
  </div>
-<!-- Link to external Javascript -->
-<script src="javascript.js/script2"></script>
+
+<script>
+  let acc = document.getElementsByClassName("accordion");
+  for (let i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      // Toggle current active class
+      this.classList.toggle("active");
+
+      // Get the associated panel
+      let panel = this.nextElementSibling;
+
+      // If open, collapse
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        // Otherwise, expand to scrollHeight
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+</script>
 </body>
 </html>
