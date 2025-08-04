@@ -22,13 +22,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/* Header styles and content*/
+/* Header styles*/
 header {
   margin: 0;
   padding: 0;
   text-align: center;
   color: #ffffff;
 }
+/* Title background*/
 .title-banner {
   background: url('images/hero-bg12.jpeg') center center / cover no-repeat;
   padding: 80px;
@@ -39,19 +40,21 @@ header {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
+/* Title text */
 .heads {
   font-size:50px;
   font-weight: bold;
   text-align: center;
   margin-top: 0;
 }
+/* Container for MRGS logo */
 .logo-container {
   width: 100%;
   padding: 0;
   line-height: 0;
   margin-bottom: 0;
 }
-
+/* logo image */
 .logo-img {
   width: 100%;
   height: auto;
@@ -66,7 +69,7 @@ header {
   padding: 10px 0;
   flex-wrap: wrap;
 }
-
+/* Navigation bar colour */
 .navbar a.header-button {
   color: #ffffff;
   background-color: #003f7f;
@@ -75,7 +78,7 @@ header {
   border-radius: 8px;
   transition: all 0.3s ease;
 }
-
+/* hovering over navigation bar colour */
 .navbar a.header-button:hover {
   background-color: #7406d7;
   transform: scale(1.05);
@@ -129,6 +132,7 @@ h3 {
   text-align: center;
   font-size: 15px;
 }
+/* make strong and bold words extra bold */
 strong, b {
   font-weight: 900;
 }
@@ -144,6 +148,7 @@ footer {
   width: 100%;
   bottom: 0;
 }
+/* footer which contains navigation bar colour */
 .footer-container{
     background: url("images/backs3.jpg");
 }
@@ -243,4 +248,4 @@ from {opacity: .4}
 to {opacity: 1}
 }
 
-/* Responsive layout for smaller screens */
+/* Responsive layout for smaller screens e.g phones*/
