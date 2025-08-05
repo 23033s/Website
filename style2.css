@@ -18,17 +18,19 @@ body {
     margin: 0;
     height: 100vh;
 }
+/* links inherit colour and remove underlines */
 a {
   text-decoration: none;
   color: inherit;
 }
-/* Header styles and content*/
+/* Header styles */
 header {
   margin: 0;
   padding: 0;
   text-align: center;
   color: #ffffff;
 }
+/* Title background*/
 .title-banner {
   background: url('images/hero-bg12.jpeg') center center / cover no-repeat;
   padding: 80px;
@@ -39,21 +41,21 @@ header {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
-
+/* Title text */
 .heads {
   font-size: 50px;
   font-weight: bold;
   text-align: center;
   margin-top: 0;
 }
-
+/* Container for MRGS logo */
 .logo-container {
   width: 100%;
   padding: 0;
   line-height: 0;
   margin-bottom: 0;
 }
-
+/* logo image */
 .logo-img {
   width: 100%;
   height: auto;
@@ -61,6 +63,35 @@ header {
   object-fit: contain;
   margin-bottom: 0;
 }
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+/* Navigation bar colour */
+.navbar a.header-button {
+  color: #ffffff;
+  background-color: #003f7f;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+/* hovering over navigation bar colour */
+.navbar a.header-button:hover {
+  background-color: #7406d7;
+  transform: scale(1.05);
+}
+
+/* Main heading and paragraphs */
+h1 {
+  text-align: center;
+  color: rgba(255, 18, 189, 0.95);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+/* heading 2 font, size, position and box*/
 h2 {
     text-align: center;
     font-size: 50px;
@@ -69,6 +100,7 @@ h2 {
     margin-bottom: 10px;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
 }
+/* bullet point list of impacts */
 .explanation ul {
   max-width: 800px;
   margin: 0 auto 40px;
@@ -81,44 +113,18 @@ h2 {
   line-height: 1.6;
   list-style-type: disc;
 }
-
+/* bullet lit margin from other content */
 .explanation ul li {
   margin-bottom: 15px;
 }
+/* heading 3 font, size, position and box*/
 h3 {
     font-size:45px;
     margin-bottom: 20px;
     text-align: center;
     color: #000000;
 }
-/* Navigation bar */
-.navbar {
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-  flex-wrap: wrap;
-}
-
-.navbar a.header-button {
-  color: #ffffff;
-  background-color: #003f7f;
-  padding: 10px 20px;
-  margin: 5px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-}
-
-.navbar a.header-button:hover {
-  background-color: #7406d7;
-  transform: scale(1.05);
-}
-
-/* Main heading and paragraphs */
-h1 {
-  text-align: center;
-  color: rgba(255, 18, 189, 0.95);
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
-}
+/* first paragraph */
 .main-paragraph {
   text-align: center;
   font-size: 20px;
@@ -130,6 +136,7 @@ h1 {
   line-height: 1.8;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+/* small paragraphs with information */
 .sub-paragraph {
   text-align: center;
   margin: 10px 10px 20px;
@@ -140,6 +147,7 @@ h1 {
   line-height: 1.8;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+/* box of bigger paragraphs */
 .explanation2 {
   background-color: rgba(255, 255, 255, 0.88);
   padding: 25px 30px;
@@ -150,14 +158,14 @@ h1 {
   font-size: 17px;
   color: #1c1c1c;
 }
-
+/* paragraphs */
 .explanation2 p {
   margin-bottom: 12px;
   font-size: 20px;
   font-weight: bold;
   color: rgba(35, 67, 108, 0.9);
 }
-
+/* content */
 .explanation3 {
   padding-left: 15px;
   margin-left: 10px;
@@ -166,23 +174,25 @@ h1 {
   font-size: 17px;
   color: #333;
 }
-
+/* paragraphs */
 .explanation3 p {
   margin: 0;
   padding: 0;
   line-height: 1.7;
 }
-/*make key words bolder and stronger*/
+/*make key words stronger*/
 .explanation2 strong {
     color: black;
     font-size: 25px;
     font-weight: 1000;
 }
+/*make key words bolder */
 .explanation3 b {
   color: #004aad;
   font-weight: 900;
   font-size: 20px;
 }
+/* image size */
 .images {
   display: flex;
   flex-wrap: wrap;
@@ -190,12 +200,14 @@ h1 {
   justify-content: center;
   margin: 40px auto;
 }
+/*image */
 .images img {
   width: 350px;
   height: auto;
   border-radius: 8px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
 }
+/* video size about impacts */
 .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -205,7 +217,7 @@ h1 {
   max-width: 100%;
   margin: 0;
 }
-
+/* iframe of video */
 .video iframe {
   position: absolute;
   top: 0;
@@ -226,9 +238,11 @@ footer {
   width: 100%;
   bottom: 0;
 }
+/* footer container containing image */
 .footer-container{
     background: url("images/backs6.jpg");
 }
+/* nav bar foooter */
 .footer1 {
   width: 50%;
   height: auto;
