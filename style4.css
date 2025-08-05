@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Body of first page and background*/
+/* Body of fourth page and background*/
 body {
     font-family: Verdana, sans-serif;
     background-color: #ffffff;
@@ -18,17 +18,19 @@ body {
     margin: 0;
     height: 100vh;
 }
+/* links inherit colour and remove underlines */
 a {
   text-decoration: none;
   color: inherit;
 }
-/* Header styles and content*/
+/* Header styles */
 header {
   margin: 0;
   padding: 0;
   text-align: center;
   color: #ffffff;
 }
+/* Title background*/
 .title-banner {
   background: url('images/hero-bg12.jpeg') center center / cover no-repeat;
   padding: 80px;
@@ -39,21 +41,21 @@ header {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
-
+/* Title text */
 .heads {
   font-size: 50px;
   font-weight: bold;
   text-align: center;
   margin-top: 0;
 }
-
+/* Container for MRGS logo */
 .logo-container {
   width: 100%;
   padding: 0;
   line-height: 0;
   margin-bottom: 0;
 }
-
+/* logo image */
 .logo-img {
   width: 100%;
   height: auto;
@@ -61,6 +63,7 @@ header {
   object-fit: contain;
   margin-bottom: 0;
 }
+/* heading two style */
 h2 {
     text-align: center;
     font-size: 50px;
@@ -76,7 +79,7 @@ h2 {
   padding: 10px 0;
   flex-wrap: wrap;
 }
-
+/* Navigation bar colour */
 .navbar a.header-button {
   color: #ffffff;
   background-color: #003f7f;
@@ -85,11 +88,12 @@ h2 {
   border-radius: 8px;
   transition: all 0.3s ease;
 }
-
+/* hovering over navigation bar colour */
 .navbar a.header-button:hover {
   background-color: #7406d7;
   transform: scale(1.05);
 }
+/* main content styling */
 .main-paragraph {
   text-align: center;
   font-size: 20px;
@@ -101,6 +105,7 @@ h2 {
   line-height: 1.8;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+/* bullet point list about solutions */
 .explanation ul {
   max-width: 800px;
   margin: 0 auto 40px;
@@ -113,6 +118,7 @@ h2 {
   line-height: 1.6;
   list-style-type: disc;
 }
+/* bullet list margin from other content */
 .explanation ul li {
   margin-bottom: 15px;
 }
@@ -131,6 +137,7 @@ h2 {
   font-size: 20px;
   font-weight: bold;
 }
+/* youtube video about plastic pollution for kids sizing */
 .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -140,7 +147,7 @@ h2 {
   max-width: 100%;
   margin: 0;
 }
-
+/* iframe of video */
 .video iframe {
   position: absolute;
   top: 0;
@@ -203,9 +210,11 @@ footer {
   width: 100%;
   bottom: 0;
 }
+/* footer container containing image */
 .footer-container{
   background: url("images/backs6.jpg");
 }
+/* nav bar footer */
 .footer1 {
   width: 50%;
   height: auto;
@@ -215,3 +224,4 @@ footer {
   flex-wrap: wrap;
   margin: 0 auto;
 }
+/* Responsive layout for smaller screens e.g phones*/

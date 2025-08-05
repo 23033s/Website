@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Body of first page and background*/
+/* Body of second page and background*/
 body {
     font-family: Verdana, sans-serif;
     background-color: #ffffff;
@@ -113,7 +113,7 @@ h2 {
   line-height: 1.6;
   list-style-type: disc;
 }
-/* bullet lit margin from other content */
+/* bullet list margin from other content */
 .explanation ul li {
   margin-bottom: 15px;
 }
@@ -207,7 +207,7 @@ h3 {
   border-radius: 8px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
 }
-/* video size about impacts */
+/* video about impacts sizing */
 .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -242,7 +242,7 @@ footer {
 .footer-container{
     background: url("images/backs6.jpg");
 }
-/* nav bar foooter */
+/* nav bar footer */
 .footer1 {
   width: 50%;
   height: auto;
@@ -252,3 +252,4 @@ footer {
   flex-wrap: wrap;
   margin: 0 auto;
 }
+/* Responsive layout for smaller screens e.g phones*/
