@@ -67,7 +67,7 @@ header {
 h2 {
     text-align: center;
     font-size: 50px;
-    color: #aca2a2;
+    color: #5FA2C1;
     margin-top: 40px;
     margin-bottom: 10px;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
@@ -119,7 +119,7 @@ h2 {
 .content {
   margin-top: 40px;
   flex: 1;
-  max-width: 50%;
+  max-width: 80%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
@@ -193,3 +193,42 @@ footer {
   margin: 0 auto;
 }
 /* Responsive layout for smaller screens e.g phones*/
+@media screen and (max-width: 600px) {
+  .logo-img {
+    width: 90%;
+    height: auto;
+  }
+
+  .heads {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .main-paragraph,
+  .h3-content {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .navbar a.header-button {
+    font-size: 16px;
+    padding: 10px;
+  }
+  footer {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .content {
+
+  }
+  .form {
+
+  }
+}
