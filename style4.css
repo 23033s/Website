@@ -10,10 +10,10 @@ body {
     background-color: #ffffff;
     color: #000000;
     line-height: 1.6rem;
-    background: url('images/back4.jpg') bottom center no-repeat,
-                url('images/back4.jpg') top center no-repeat;
+    background: url('images/back4.jpg') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     background-blend-mode: multiply;
     margin: 0;
     height: 100vh;
@@ -132,7 +132,7 @@ h2 {
 }
 /* Source link */
 .sources-link {
-  color: white;
+  color: #12ca8b;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
